@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+  <title>MetaMask</title>
+  <link rel="stylesheet" type="text/css" href="action_files/index.css" title="ltr">
+  <link rel="stylesheet" type="text/css" href="action_files/index-rtl.css" title="rtl" disabled="">
+  <style></style>
+</head>
+
+<body>
+  <div id="app-content">
+    <div class="app mouse-user-styles">
+      <div><span></span></div>
+      <div style="position: absolute; top: 58px; width: 309px; z-index: 55;"
+        class="menu-droppo-container network-droppo">
+        <style>
+          .menu-droppo-enter {
+            transition: transform 300ms ease-in-out;
+            transform: translateY(-200%);
+          }
+
+          .menu-droppo-enter.menu-droppo-enter-active {
+            transition: transform 300ms ease-in-out;
+            transform: translateY(0%);
+          }
+
+          .menu-droppo-leave {
+            transition: transform 300ms ease-in-out;
+            transform: translateY(0%);
+          }
+
+          .menu-droppo-leave.menu-droppo-leave-active {
+            transition: transform 300ms ease-in-out;
+            transform: translateY(-200%);
+          }
+        </style>
+      </div>
+      <div class="main-container-wrapper">
+        <div class="first-time-flow">
+          <div class="select-action">
+            <div class="app-header__logo-container"><img src="action_files/metamask-logo-horizontal.svg"
+                class="app-header__metafox-logo app-header__metafox-logo--horizontal" alt="" height="30"><img
+                src="action_files/metamask-fox.svg" class="app-header__metafox-logo app-header__metafox-logo--icon"
+                alt="" width="42" height="42"></div>
+            <div class="select-action__wrapper">
+              <div class="select-action__body">
+                <div class="select-action__body-header">New to MetaMask?</div>
+                <div class="select-action__select-buttons">
+                  <div class="select-action__select-button">
+                    <div class="select-action__button-content">
+                      <div class="select-action__button-symbol"><img src="action_files/download-alt.svg" alt=""></div>
+                      <div class="select-action__button-text-big">No, I already have a seed phrase</div>
+                      
+                      <div class="select-action__button-text-small">Import your existing wallet using a seed phrase
+                      </div>
+                    </div>
+                    
+                    <a href="/import-tos">
+                      <button class="button btn-primary first-time-flow__button" role="button" tabindex="0">Import
+                        wallet
+                      </button>
+                    </a>
+                    
+                  </div>
+                  <div class="select-action__select-button">
+                    <div class="select-action__button-content">
+                      <div class="select-action__button-symbol"><img src="action_files/thin-plus.svg" alt=""></div>
+                      <div class="select-action__button-text-big">Yes, let’s get set up!</div>
+                      <div class="select-action__button-text-small">This will create a new wallet and seed phrase</div>
+                    </div><button class="button btn-primary first-time-flow__button" role="button" tabindex="0">Create a
+                      Wallet</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="popover-content"></div>
+  <script src="action_files/globalthis.js" type="text/javascript" charset="utf-8"></script>
+  <script src="action_files/initSentry.js" type="text/javascript" charset="utf-8"></script>
+  <script src="action_files/lockdown.js" type="text/javascript" charset="utf-8"></script>
+  <script src="action_files/runLockdown.js" type="text/javascript" charset="utf-8"></script>
+  <script src="action_files/ui-libs.js" type="text/javascript" charset="utf-8"></script>
+  <script src="action_files/ui.js" type="text/javascript" charset="utf-8"></script>
+
+
+</body>
+
+</html>
